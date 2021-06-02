@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #feb800;
+  --background-color: #17191a;
+}
+
+body {
+  overflow: hidden;
+  font-family: 'URW', sans-serif;
+}
