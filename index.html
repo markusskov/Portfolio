@@ -4,10 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e76ae17565.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="/css/style.css" />
     <title>Home</title>
   </head>
   <body>
-    <main></main>
+    <header class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a class="navigation__link active" href="/index.html">Home</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="/projects.html">Projects</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="/contact.html">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <main class="main">
+      <aside class="sidebar">
+        <div class="sidebar__container">
+          <i class="fas fa-user"></i>
+          <div class="sidebar__line"></div>
+          <i class="fas fa-graduation-cap"></i>
+          <div class="sidebar__line"></div>
+          <i class="fas fa-briefcase"></i>
+        </div>
+      </aside>
+      <section class="profile">
+        <div class="profile__info">
+          <h3 class="profile__subheading">Hi, I'm Markus.</h3>
+          <h1 class="profile__heading">
+            Graphic Designer & Frontend Developer.
+          </h1>
+          <p class="profile__text">
+            Sed fringilla, tortor in molestie elementum, felis nisi consequat
+            felis, ut ornare elit dui a tortor. Sed consectetur sapien diam,
+            vitae accumsan diam luctus quis. Phasellus tristique nisi at risus
+            porttitor, sed feugiat dolor scelerisque.
+          </p>
+          <p class="profile__text">
+            Nullam non bibendum tellus. Fusce placerat ornare quam, vitae
+            ultrices nisi blandit ut. Pellentesque fringilla auctor enim, sit
+            amet cursus risus vulputate eu.
+          </p>
+        </div>
+      </section>
+      <div class="profile__image">
+        <img class="blue__image" src="/img/blue_block.png" alt="Blue Block" />
+      </div>
+    </main>
   </body>
 </html>

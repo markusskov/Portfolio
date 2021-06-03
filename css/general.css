@@ -1,3 +1,13 @@
+@font-face {
+  font-family: URW;
+  src: url(/fonts/URWGeometric-Regular.woff);
+}
+
+@font-face {
+  font-family: URW-Black;
+  src: url(/fonts/URWGeometric-Black.woff);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +27,9 @@ body {
   overflow: hidden;
   font-family: 'URW', sans-serif;
   font-size: 1.6rem;
+  background-color: var(--background-color);
+  max-width: 1200px;
+  margin: auto;
 }
 
 h1 {
@@ -30,10 +43,18 @@ h2 {
 
 h3 {
   font-size: 2rem;
+  font-weight: 200;
 }
 
 p,
 li,
 a {
   font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: white;
 }

@@ -1,0 +1,66 @@
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar {
+  width: 400px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar__line {
+  width: 1px;
+  height: 80px;
+  background-color: #868686;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.fas {
+  color: #868686;
+  font-size: 2rem;
+}
+
+.fa-user {
+  color: var(--primary-color);
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile__subheading,
+.profile__heading {
+  padding: 1px 0;
+  max-width: 250px;
+}
+
+.profile__heading {
+  margin-bottom: 15px;
+}
+
+.profile__text {
+  max-width: 400px;
+  padding: 10px 0;
+}
+
+.profile__image {
+  width: 400px;
+}
+
+.blue__image {
+  height: 500px;
+  width: 100%;
+  object-fit: contain;
+}
