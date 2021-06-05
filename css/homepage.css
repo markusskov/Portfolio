@@ -92,11 +92,16 @@
   object-fit: contain;
 }
 
+.red__image {
+  height: 500px;
+  width: 100%;
+  object-fit: contain;
+  display: none;
+}
+
 .education,
 .work {
-  align-items: center;
-  height: 100vh;
-  justify-content: center;
+  display: none;
 }
 
 @media (max-width: 767px) {
