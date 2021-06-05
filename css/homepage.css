@@ -37,6 +37,11 @@
   color: var(--primary-color);
 }
 
+.fa-graduation-cap:hover,
+.fa-briefcase:hover {
+  color: var(--primary-color);
+}
+
 .profile,
 .education,
 .work {
@@ -124,8 +129,5 @@
   .education,
   .work {
     height: 50vh;
-  }
-  .profile__button--container {
-    text-align: center;
   }
 }
