@@ -114,8 +114,8 @@
   .main__container {
     flex-direction: column-reverse;
   }
-  .profile__image {
-    width: 30%;
+  .blueprofile__image {
+    width: 50%;
   }
   .blue__image {
     height: auto;
