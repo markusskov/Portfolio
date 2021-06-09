@@ -122,9 +122,9 @@
   .sidebar,
   .sidebar__container {
     flex-direction: row;
-    top: 5;
     bottom: 0;
-    position: absolute;
+    position: relative;
+    height: 20vh;
   }
   .main__container {
     flex-direction: column-reverse;
