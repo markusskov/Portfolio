@@ -119,11 +119,22 @@
   body {
     padding: 0 15px;
   }
-  .sidebar {
-    display: none;
+  .sidebar,
+  .sidebar__container {
+    flex-direction: row;
+    top: 5;
+    bottom: 0;
+    position: absolute;
   }
   .main__container {
     flex-direction: column-reverse;
+  }
+  .sidebar__line {
+    width: 80px;
+    height: 1px;
+    background-color: #868686;
+    align-items: center;
+    margin: 0 15px;
   }
   .blueprofile__image {
     width: 50%;
