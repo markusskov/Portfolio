@@ -24,3 +24,14 @@
 .project__link {
   color: var(--primary-color);
 }
+
+@media (max-width: 767px) {
+  body {
+    padding: 0 15px;
+  }
+  .project__image {
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
