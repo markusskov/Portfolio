@@ -115,6 +115,15 @@
   margin: 10px 0;
 }
 
+.footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer__text {
+  font-size: 14px;
+}
+
 @media (max-width: 767px) {
   body {
     padding: 0 15px;
@@ -152,9 +161,5 @@
   .education__heading,
   .work__heading {
     margin: 0;
-  }
-  .education,
-  .work {
-    height: 50vh;
   }
 }
